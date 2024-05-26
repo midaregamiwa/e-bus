@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trabalho marcos silva</title>
+
+    <!-- STYLES -->
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header id="header" class="">
+      <nav class="container">
+        <a class="logo" href="#">E-<span>Bus</span></a>
+        <!-- MENU -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#benefits">Benefícios</a></li>
+            <li><a class="title" href="#impacts">Impactos</a></li>
+            <li><a class="title" href="#conclusion">Desafios</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://cdn.motor1.com/images/mgl/XBG20k/s1/onibus-eletricos---eletra---sp-5.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">
+              Programa de Transporte Urbano de Baixo Carbono
+            </h2>
+            <p class="subtitle">
+              Este programa é uma iniciativa para promover o uso de ônibus
+              elétricos nas cidades brasileiras, substituindo gradualmente os
+              ônibus movidos a combustíveis fósseis.
+            </p>
+            <a class="button" onclick="scrollDown()">Saiba mais!</a>
+            <script>
+              function scrollDown() {
+                window.scrollBy(0, window.innerHeight);
+              }
+            </script>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://revistacarro.com.br/wp-content/uploads/2024/04/oe12_galeria_01.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Detalhes do programa</h2>
+            <p>
+              O
+              <strong
+                >Programa de Transporte Urbano de Baixo Carbono (E-Bus)</strong
+              >
+              visa reduzir a emissão de gases de efeito estufa e poluentes
+              atmosféricos nas cidades brasileiras. Promovendo a substituição de
+              ônibus a combustíveis fósseis por elétricos, o programa busca
+              <strong>melhorar a qualidade do ar e a saúde pública. </strong>
+            </p>
+            <p>
+              Além de reduzir as emissões, pretende aumentar a eficiência
+              energética do transporte público. Ônibus elétricos são mais
+              silenciosos e consomem menos energia, diminuindo também a poluição
+              sonora. Estações de recarga e sistemas de gestão de frota são
+              fundamentais para a operação eficiente dos veículos.
+            </p>
+            <p>
+              O programa contribui para um ambiente urbano mais
+              <strong>saudável e sustentável</strong>. A melhor qualidade do ar
+              e a redução do ruído urbano beneficiam a saúde pública, enquanto a
+              criação de empregos na fabricação e manutenção dos ônibus
+              impulsiona a economia local.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- Benefícios -->
+      <section class="section" id="benefits">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Benefícios Ambientais</h2>
+            <p class="subtitle">
+              A utilização de ônibus elétricos nas cidades brasileiras
+              <strong
+                >reduz emissões e melhora a qualidade de vida urbana</strong
+              >. Esse enfoque sustentável traz algubns benefícios ambientais,
+              sociais e econômicos significativos, como:
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-leaf"></i>
+              <h3 class="title">Redução de Emissões</h3>
+              <p>
+                Substituição dos ônibus a diesel por elétricos pode reduzir
+                significativamente as emissões de CO2, NOx e material
+                particulado (PM).
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-volume-mute2"></i>
+              <h3 class="title">Menos Poluição Sonora</h3>
+              <p>
+                Os ônibus elétricos são mais silenciosos, contribuindo para a
+                redução da poluição sonora nas cidades.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-power"></i>
+              <h3 class="title">Eficiência Energética</h3>
+              <p>
+                Melhora na eficiência energética do transporte público,
+                reduzindo o consumo total de energia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- impacts -->
+      <section class="section" id="impacts">
+        <div class="container">
+          <!-- cannot be display grid because of the carousel (it needs to be block) -->
+          <header>
+            <h2 class="title">Impactos Sociais</h2>
+          </header>
+          <div class="impacts swiper">
+            <div class="swiper-wrapper">
+              <div class="impacts swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&bull;</span
+                    ><strong> Qualidade do Ar e Saúde: </strong><br />
+                    A substituição de ônibus a diesel por elétricos melhora
+                    significativamente a qualidade do ar nas áreas urbanas,
+                    reduzindo a emissão de poluentes nocivos. Esta mudança
+                    resulta em uma diminuição das doenças respiratórias e
+                    cardiovasculares, melhorando a saúde pública e reduzindo os
+                    custos com tratamentos médicos.
+                  </p>
+                </blockquote>
+              </div>
+
+              <div class="impacts swiper-slide">
+                <blockquote>
+                  <!-- specific for quotes -->
+                  <p>
+                    <span>&bull;</span><strong> Geração de Empregos: </strong
+                    ><br />
+                    A transição para ônibus elétricos cria novas oportunidades
+                    de emprego na fabricação, manutenção e operação desses
+                    veículos. Essa demanda por novos profissionais impulsiona a
+                    economia local, proporcionando melhores condições de vida
+                    para muitas famílias e fortalecendo o mercado de trabalho.
+                    Além disso, fomenta a inovação tecnológica e o
+                    desenvolvimento de novas habilidades na força de trabalho.
+                  </p>
+                </blockquote>
+              </div>
+
+              <div class="impacts swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&bull;</span
+                    ><strong> Redução da Poluição Sonora: </strong><br />
+                    Ônibus elétricos são muito mais silenciosos em comparação
+                    com os veículos a diesel. A redução da poluição sonora
+                    contribui para um ambiente urbano mais tranquilo e
+                    confortável, diminuindo o estresse e melhorando o bem-estar
+                    dos moradores. Menos ruído nas ruas também pode aumentar a
+                    produtividade e a qualidade do sono da população urbana.
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- conclusion -->
+      <section class="section" id="conclusion">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://as2.ftcdn.net/v2/jpg/08/08/01/01/1000_F_808010153_zznra1TsE1JWXR6FnQOt3dyTX6HLk1ei.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Desafios, considerações e conclusão:</h2>
+            <p>
+              A implementação dos ônibus elétricos no Brasil enfrenta diversos
+              desafios. Um dos principais é o
+              <strong>alto custo inicial</strong>, tanto para a aquisição dos
+              veículos quanto para a instalação da infraestrutura de recarga.
+              Esse investimento inicial significativo pode ser uma barreira para
+              a adoção em larga escala dos ônibus elétricos, especialmente para
+              cidades com recursos financeiros limitados. Além disso, a falta de
+              conhecimento técnico e experiência na operação e manutenção de
+              ônibus elétricos pode representar um desafio, exigindo treinamento
+              especializado para motoristas e equipes de manutenção. A
+              integração dos ônibus elétricos com outras formas de transporte
+              sustentável, como bicicletas e metrôs, também é essencial para
+              <strong
+                >garantir um sistema de mobilidade urbana coeso e
+                eficiente.</strong
+              >
+            </p>
+            <p>
+              Apesar dos desafios mencionados, o Programa E-Bus representa um
+              passo crucial para uma
+              <strong>mobilidade urbana mais sustentável no Brasil</strong>. Os
+              benefícios ambientais, sociais e econômicos são significativos e
+              justificam os esforços necessários para superar os obstáculos. A
+              transição para ônibus elétricos contribui não apenas para a
+              redução das emissões de gases de efeito estufa e poluentes
+              atmosféricos, mas também para a melhoria da qualidade de vida nas
+              cidades brasileiras.
+              <strong
+                >Com o apoio adequado, incluindo investimentos financeiros,
+                capacitação técnica e políticas de incentivo, o Brasil pode
+                avançar significativamente em direção a uma mobilidade urbana
+                mais sustentável e equitativa.</strong
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">E-<span>Bus</span></a>
+          <p>©2024 E-Bus</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
+
+    <!-- swiper script -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- scroll review script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main script -->
+    <script src="script.js"></script>
+  </body>
+</html>

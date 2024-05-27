@@ -324,6 +324,7 @@ nav.show div.icon-close {
 }
 
 #about .image {
+  height: fit-content;
   position: relative; /* para poder colocar o pseudo element em position absolute abaixo */
 }
 
